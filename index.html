@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bean Booze Cafe</title>
+    <!-- adds link to css stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <!-- link for font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <header role="banner">
+        <!-- skip links -->
+       <a href="#main-skip" class="skip">Skip to main content</a>
+       <!-- adds wrapper to header part to center align content -->
+       <div class="head-wrap">
+           <div class="header">
+               <img class="logo" src="images/logo1.png" alt="The Bean Booze Cafe logo">
+               <br>
+               <div class="nav-bar">
+                   <!-- adds navigation menu for website -->
+                   <nav role="menubar">
+                       <ul>
+                           <li role="menuitem"><a class="home" href="index.html">Home</a></li>
+                           <li role="menuitem"><a class="contact" href="contact.html">Contact</a></li>
+                           <li role="menuitem"><a class="about" href="about.html">About</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+       <hr>
+   </header>
+   <main role="banner">
+        <!-- adds wrapper to main content part to center align content -->
+        <div class="main-wrap">
+            <div class="main-content" id="main-skip">
+                <div class="welcome">
+                    <p><b>Welcome to our cozy cafe!</b> <br> Come relax and enjoy our delicious menu and expertly crafted coffee and tea. We pride ourselves on our warm and inviting atmosphere, and can't wait to share it with you. Stop by and experience it for yourself!</p>
+                    <!-- adding welcome images which are responsive for different screen sizes -->
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/beans.jpg">
+                        <source media="(max-width: 960px)" srcset="images/beans50w.jpg">
+                        <img src="images/beans.jpg" alt="picture of cafe">
+                    </picture>
+                </div>
+                <!-- menu section -->
+                <div class="menu">
+                    <h2 id="menu-title">Our Menu</h2>
+                    <div class="yummymenu">                   
+                        <div class="food latte">
+                            <!-- pitcures -->
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/latte.jpg">
+                                <source media="(max-width: 960px)" srcset="images/latte50w.jpg">
+                                <img src="images/latte.jpg" alt="picture of latte">
+                            </picture>
+                            <h3>Cafe Latté</h3> <hr>
+                            <p>Bold espresso and steamed milk, creamy and smooth. A perfect balance for a satisfying and delicious coffee experience.</p>
+                        </div>
+                        <div class="food espresso">
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/espresso.jpg">
+                                <source media="(max-width: 960px)" srcset="images/espresso50w.jpg">
+                                <img src="images/espresso.jpg" alt="picture of espresso">
+                            </picture>
+                            <h3>Espresso</h3> <hr>
+                            <p>Bold and intense, a concentrated shot of coffee made from finely ground beans. Perfect for a quick pick-me-up or as a base for other drinks</p>
+                        </div>
+                        <div class="food ice-mocha">
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/ice-mocha.jpg">
+                                <source media="(max-width: 960px)" srcset="images/ice-mocha50w.jpg">
+                                <img src="images/ice-mocha.jpg" alt="picture of ice-mocha">
+                            </picture>
+                            <h3>Ice Mocha</h3> <hr>
+                            <p>A refreshing iced beverage made with rich chocolate, espresso, and cold milk. Topped with whipped cream for a decadent treat.</p>
+                        </div>
+                        <div class="food croissant">
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/croissant.jpg">
+                                <source media="(max-width: 960px)" srcset="images/croissant50w.jpg">
+                                <img src="images/croissant.jpg" alt="picture of croissant">
+                            </picture>
+                            <h3>Croissant</h3> <hr>
+                            <p>Bold espresso and steamed milk, creamy and smooth. A perfect balance for a satisfying and delicious coffee experience.</p>
+                        </div>
+                        <div class="food pancakes">
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/pancakes.jpg">
+                                <source media="(max-width: 960px)" srcset="images/pancakes50w.jpg">
+                                <img src="images/pancakes.jpg" alt="picture of pancakes">
+                            </picture>
+                            <h3>Pancakes</h3> <hr>
+                            <p>Fluffy and golden, a classic breakfast favorite. Served with butter and syrup, or topped with fruit, chocolate, or whipped cream for a delicious treat.</p>
+                        </div>
+                        <div class="food tiramisu">
+                            <picture>
+                                <source media="(min-width: 960px)" srcset="images/tiramisu.jpg">
+                                <source media="(max-width: 960px)" srcset="images/tiramisu50w.jpg">
+                                <img src="images/tiramisu.jpg" alt="picture of tiramisu">
+                            </picture>
+                            <h3>Tiramisu</h3> <hr>
+                            <p>A decadent Italian dessert made with layers of espresso-dipped ladyfingers and creamy mascarpone cheese. Topped with cocoa powder for a rich and indulgent flavor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <li><a href="www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 122 122">
+                            <g id="Ellipse_22" data-name="Ellipse 22" fill="#141b22" stroke="#707070" stroke-width="1">
+                            <circle cx="61" cy="61" r="61" stroke="none"/>
+                            <circle cx="61" cy="61" r="60.5" fill="none"/>
+                            </g>
+                            <text id="Social_Ideas" data-name="Social
+                        Ideas" transform="translate(61 57)" fill="#141b22" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-27.4" y="0">Social</tspan><tspan x="-24.26" y="24">Ideas</tspan></text>
+                            <circle id="Ellipse_23" data-name="Ellipse 23" cx="61" cy="61" r="61" fill="#c89868"/>
+                            <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M32.5,18.069A16.661,16.661,0,1,0,49.163,34.73,16.635,16.635,0,0,0,32.5,18.069Zm0,27.494A10.832,10.832,0,1,1,43.334,34.73,10.852,10.852,0,0,1,32.5,45.563ZM53.731,17.387A3.886,3.886,0,1,1,49.845,13.5,3.877,3.877,0,0,1,53.731,17.387Zm11.035,3.944c-.247-5.206-1.436-9.817-5.249-13.616S51.107,2.727,45.9,2.466c-5.365-.3-21.447-.3-26.812,0C13.9,2.713,9.286,3.9,5.472,7.7S.484,16.111.223,21.317c-.3,5.365-.3,21.447,0,26.812.247,5.206,1.436,9.817,5.249,13.616s8.41,4.988,13.616,5.249c5.365.3,21.447.3,26.812,0,5.206-.247,9.817-1.436,13.616-5.249s4.988-8.41,5.249-13.616c.3-5.365.3-21.432,0-26.8ZM57.835,53.886a10.967,10.967,0,0,1-6.177,6.177c-4.278,1.7-14.428,1.305-19.156,1.305s-14.892.377-19.156-1.305a10.967,10.967,0,0,1-6.177-6.177c-1.7-4.278-1.305-14.428-1.305-19.156S5.487,19.838,7.169,15.575A10.967,10.967,0,0,1,13.346,9.4C17.624,7.7,27.775,8.092,32.5,8.092S47.394,7.715,51.658,9.4a10.967,10.967,0,0,1,6.177,6.177C59.532,19.853,59.14,30,59.14,34.73S59.532,49.623,57.835,53.886Z" transform="translate(29.005 26.762)" fill="#fbffff"/>
+                        </svg>
+                        </a></li>
+
+                        <li><a href="www.youtube.com"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 122 122">
+                            <circle id="Ellipse_24" data-name="Ellipse 24" cx="61" cy="61" r="61" fill="#c89868"/>
+                            <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M64.692,11.651a8.167,8.167,0,0,0-5.747-5.784C53.876,4.5,33.55,4.5,33.55,4.5s-20.326,0-25.4,1.367a8.168,8.168,0,0,0-5.747,5.784C1.05,16.753,1.05,27.4,1.05,27.4s0,10.645,1.358,15.747a8.046,8.046,0,0,0,5.747,5.692C13.224,50.2,33.55,50.2,33.55,50.2s20.326,0,25.4-1.367a8.046,8.046,0,0,0,5.747-5.692C66.05,38.042,66.05,27.4,66.05,27.4s0-10.645-1.358-15.747ZM26.9,37.062V17.733L43.891,27.4,26.9,37.062Z" transform="translate(27.639 33.5)" fill="#fbffff"/>
+                        </svg>
+                        </a></li>
+
+                        <li><a href="wwww.facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 122 122">
+                            <circle id="Ellipse_25" data-name="Ellipse 25" cx="61" cy="61" r="61" fill="#c89868"/>
+                            <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M34.141,36.563,35.946,24.8H24.659V17.165c0-3.218,1.577-6.355,6.632-6.355h5.131V.795A62.577,62.577,0,0,0,27.314,0c-9.3,0-15.371,5.634-15.371,15.834V24.8H1.609V36.563H11.942V65H24.659V36.563Z" transform="translate(42.391 29)" fill="#fbffff"/>
+                        </svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+   <footer role="banner">
+    <!-- adds wrapper to footer part to center align content -->
+    <div class="foot-wrap">
+        <div class="foot">
+            <p>COPYRIGHT © 2023 JASKIRAT SINGH</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

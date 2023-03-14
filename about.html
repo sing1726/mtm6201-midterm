@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bean Booze Cafe</title>
+    <!-- adds link to css stylesheet -->
+    <link rel="stylesheet" href="main.css"> 
+    <!-- link for font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <header role="banner">
+        <!-- adds skip links -->
+       <a href="#main-skip" class="skip">Skip to main content</a>
+       <!-- adds wrapper to header part to center align content -->
+       <div class="head-wrap">
+           <div class="header">
+               <img class="logo" src="images/logo1.png" alt="The Bean Booze Cafe logo">
+               <br>
+               <div class="nav-bar">
+                   <!-- adds navigation menu for website -->
+                   <nav role="menubar">
+                       <ul>
+                           <li role="menuitem"><a href="index.html">Home</a></li>
+                           <li role="menuitem"><a href="contact.html">Contact</a></li>
+                           <li role="menuitem"><a class="home" href="about.html">About</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+       <hr>
+   </header>
+   <main role="banner">
+        <!-- adds wrapper to main content part to center align content -->
+        <div class="main-wrap">
+            <div class="main-content cafe" id="main-skip">
+                <h2 id="aucafe">About Us </h2>
+                <div class="barista">
+                    <div class="founders_bio">
+                        <p>Welcome to our cozy café nestled in the captial of Canada!</p>
+                        <p>We are committed to providing our patrons with delectable cuisine and beverages in a welcoming environment. In our cafe, you may unwind, catch up with friends, or just have some quiet time to yourself.</p>
+                        <p>At our café, we take great satisfaction in using the freshest products and, whenever possible, sourcing from local sources. To satisfy everyone's dietary preferences, our menu has a wide variety of alternatives, such as hearty salads and sandwiches, vegan dishes, and gluten-free selections.</p>
+                        <p>Our skilled baristas are masters at making the ideal cup of coffee using only the best beans and cutting-edge machinery. We offer beverages that suit your tastes, whether you desire a traditional espresso, a velvety latte, or an energizing iced coffee.</p>
+                    </div>
+                    <div class="founder">
+                        <!-- adding images which are responsive for different screen sizes -->
+                        <picture>
+                            <source media="(max-width: 960px)" srcset="images/emily50w.jpg">
+                            <source media="(min-width: 960px)" srcset="images/emily.jpg">
+                            <img src="images/emily.jpg" alt="emily at work">
+                        </picture>
+                    </div>
+                    <div class="cafeday">
+                        <h2>
+                            here is a snapshot from cafe's busiest day
+                        </h2>
+                        <!-- adding images which are responsive for different screen sizes -->
+                        <picture>
+                            <source media="(max-width: 960px)" srcset="images/cafe50w.jpg">
+                            <source media="(min-width: 960px)" srcset="images/cafe.jpg">
+                            <img src="images/cafe.jpg" alt="snapshot of busy cafe day">
+                        </picture>
+                    </div>
+                 </div>
+             </div> 
+         </div>
+    </main>
+   <footer role="banner">
+    <!-- adds wrapper to footer part to center align content -->
+    <div class="foot-wrap">
+        <div class="foot">
+            <p>COPYRIGHT © 2023 JASKIRAT SINGH</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

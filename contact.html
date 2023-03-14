@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>The Bean Booze Cafe</title>
+       <!-- adds link to css stylesheet -->
+       <link rel="stylesheet" href="main.css">
+       <!-- link for font family -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,600;1,400&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+   </head>
+   <body>
+       <header role="banner">
+           <!-- adds skip links -->
+          <a href="#main-skip" class="skip">Skip to main content</a>
+          <!-- adds wrapper to header part to center align content -->
+          <div class="head-wrap">
+              <div class="header">
+                  <img class="logo" src="images/logo1.png" alt="The Bean Booze Cafe logo">
+                  <br>
+                  <div class="nav-bar">
+                      <!-- adds navigation menu for website -->
+                      <nav role="menubar">
+                          <ul>
+                              <li role="menuitem"><a href="index.html">Home</a></li>
+                              <li role="menuitem"><a class="home" href="contact.html">Contact</a></li>
+                              <li role="menuitem"><a href="about.html">About</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <hr>
+      </header>
+      <main role="banner">
+        <!-- adds wrapper to main content part to center align content -->
+        <div class="main-wrap">
+            <div class="contact" id="main-skip">
+                <!-- adds a contact box -->
+                <!-- adds schema -->
+                <div class="details" itemscope itemtype="https://schema.org/LocalBusiness">
+                    <!-- adds details about the cafe -->
+                    <h2>You can find us at</h2>
+                    <h4>EMAIL</h4>
+                    <p itemprop="email">info@thebeanboozecafe.com</p>
+                    <h4>PHONE NUMBER</h4>
+                    <p itemprop="telephone">613-696-XXXX</p>
+                    <h4>ADDRESS</h4>
+                    <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> 
+                        <span itemprop="name">The Bean Booze Cafe</span> <br>
+                        <span itemprop="streetAddress">50 Marketplace Avenue Ottawa, ON</span> <br>
+                        <span itemprop="postalCode">K2J 9C3</span>
+                    </p>
+                </div>
+                <div class="location">
+                    <!-- adds location for where the cafe is located at -->
+                    <div class="location">
+                        <h2>Location</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.94121373271!2d-75.7390449!3d45.269199099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdfcdbd2053767%3A0x35986ad016b75659!2s50%20Marketplace%20Ave%2C%20Nepean%2C%20ON%20K2J%205G3!5e0!3m2!1sen!2sca!4v1677663125879!5m2!1sen!2sca" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <!-- contact box -->
+                <div class="contactbox">
+                    <h2>Leave us a feedback/suggestion</h2>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="fullname" class="forminput"><br><br>    
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="emailaddress" class="forminput"><br><br>    
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message" class="formmessageinput"><br><br>  
+                      <!-- creates a submit button -->
+                    <button type="submit" class="formbutton">Send</button>
+                </div> 
+            </div>
+        </div>
+    </main> 
+    <!-- banner area -->
+      <footer role="banner">
+       <!-- adds wrapper to footer part to center align content -->
+       <div class="foot-wrap">
+           <div class="foot">
+               <p>COPYRIGHT © 2023 JASKIRAT SINGH</p>
+           </div>
+       </div>
+   </footer>
+   </body>
+</html>
