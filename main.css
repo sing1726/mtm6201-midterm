@@ -45,6 +45,7 @@ ul{
     font-family: 'Mulish', sans-serif;
     transition: 0.25s ease-in-out;
 }
+/* nav hover */
 
 .nav-bar a:hover {
     color: #ffc259;
@@ -74,6 +75,7 @@ ul{
     width: auto;
     height: auto;
 }
+/* skip links ends */
 
 .welcome{
     position: relative;
@@ -92,6 +94,7 @@ ul{
     text-align: center;
 }
 
+/* gave font style to headings */
 h1,h2,h3,h4,h5,h6{
     font-family: 'Mulish', sans-serif; 
 }
@@ -148,7 +151,8 @@ hr{
     ;
     gap: 1rem;
 }
-
+ /* Grid for moobbile */
+ 
 .socials ul li{
     list-style-type: none;
     text-align: center;
