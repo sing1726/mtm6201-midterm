@@ -136,6 +136,7 @@ hr{
 .pancakes{ grid-area: e1;}
 .tiramisu{ grid-area: e2;}
 
+
 .yummymenu{
     display: grid;
     grid-template-columns: repeat(2,1fr); 
