@@ -15,7 +15,7 @@ body{
 
 
 /* adds styles to nav bar */
-.nav-bar {
+.navbar {
     width: 100%;
     text-align: center;
 }
@@ -28,7 +28,7 @@ body{
     display: block;
 }
 
-.nav-bar ul li{
+.navbar ul li{
     list-style-type: none;
     
 }
@@ -37,7 +37,7 @@ ul{
     padding: 0%;
 }
 
-.nav-bar a {
+.navbar a {
     color: #E6EDF0;
     display: block;
     padding: 12px;
@@ -47,12 +47,12 @@ ul{
 }
 /* nav hover */
 
-.nav-bar a:hover {
+.navbar a:hover {
     color: #ffc259;
     font-size: 1.2rem;
 }
 
-.nav-bar a.home{
+.navbar a.home{
     background-color: #084838;
     color: #ffc259;
     font-weight: 700;
@@ -271,22 +271,22 @@ adds style to about page
         margin: auto;
     }
 
-    .nav-bar {
+    .navbar {
         text-align: center;
     }
 
-    .nav-bar ul li {
+    .navbar ul li {
         display: inline-block;
         text-decoration: none;
         justify-content: space-between;
         margin: auto;
     }
 
-    .nav-bar a {
+    .navbar a {
         padding: 1.2rem 3rem;
     }
 
-    .nav-bar a.work {
+    .navbar a.work {
         font-weight: 700;
         font-size: 1.3rem;
     }
